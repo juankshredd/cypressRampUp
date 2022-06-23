@@ -5,7 +5,9 @@
   "name": "udemy_cypress3version",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "cypress-dark": "^1.8.3"
+  },
   "scripts": {
     "test": "cypress run test",
     "cypress": "npx cypress open"
