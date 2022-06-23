@@ -1,0 +1,9 @@
+{
+    "video": true,
+    "screenshotFolder": "cypress/videos",
+    "baseUrl": "http://eaapp.somee.com/",
+    "ignoreTestFiles": "",
+    "env":{
+        "username": "admin"
+    }
+}

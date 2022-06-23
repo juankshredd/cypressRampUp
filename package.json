@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "cypress": "^3.4.1"
+  },
+  "name": "udemy_cypress3version",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "cypress run test",
+    "cypress": "npx cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
