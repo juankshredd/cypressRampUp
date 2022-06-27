@@ -47,7 +47,8 @@ Cypress.Commands.add("login", (userName, password) => {
     cy.url().should("include", "/Account/Login"); // compara el link de login
 
     // ingresa credenciales
-    cy.get('#UserName').type(Cypress.env("username"));
+    //cy.get('#UserName').type(Cypress.env("username"));
+    cy.get('#UserName').type(userName);
     cy.get('#Password').type(password);
 
     cy.get('.btn').click({force:true});

@@ -14,6 +14,11 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "cypress-cucumber-preprocessor": "^2.0.1",
     "cypress-dark": "^1.8.3"
-  }
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "testFiles": "**/*.{feature, features}*"
 }
